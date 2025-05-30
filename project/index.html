@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--
+  Infographic generated based on student research report.
+  Date: 2025-05-30
+  Generator: AI Language Model
+  Constraints: Single HTML file, Tailwind CSS, Chart.js (no SVG/Mermaid JS).
+-->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>생성형 AI 활용 고등학생의 윤리적 인식 현황과 과제 - 미림마이스터고 1학년 사례</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: #F4F7F9; /* Base Background */
+            color: #263238; /* Dark Text */
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            /* height: 300px; /* Default height, can be overridden by Tailwind */
+            /* width: 100%; /* Default width, can be overridden by Tailwind */
+        }
+        .card {
+            background-color: #FFFFFF; /* Light Background (Card) */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+            padding: 1.5rem; /* p-6 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        h1, h2, h3 {
+            color: #2A62B6; /* Primary Blue */
+            font-weight: 600; /* semibold */
+        }
+        h2 {
+            border-bottom: 2px solid #4ECDC4; /* Secondary Teal */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .accent-text {
+            color: #4ECDC4; /* Secondary Teal */
+            font-weight: 600;
+        }
+        .flowchart-step {
+            background-color: #E0F2FE; /* Supporting Light Blue */
+            border-left: 4px solid #2A62B6; /* Primary Blue */
+        }
+        .flowchart-arrow {
+            color: #2A62B6; /* Primary Blue */
+        }
+        blockquote {
+            border-left: 4px solid #A9A9A9; /* Accent Grey */
+            padding-left: 1rem;
+            margin-left: 0;
+            margin-right: 0;
+            font-style: italic;
+            color: #546E7A; /* Slightly lighter dark text */
+        }
+        .reference-link {
+            color: #2A62B6; /* Primary Blue */
+            text-decoration: underline;
+            word-break: break-all;
+        }
+        .reference-link:hover {
+            color: #4ECDC4; /* Secondary Teal */
+        }
+        /* Responsive text size for headings */
+        h1 { font-size: 1.75rem; line-height: 2.25rem; } /* text-3xl adjusted for longer title */
+        @media (min-width: 768px) {
+            h1 { font-size: 2.125rem; line-height: 2.5rem; } /* md:text-4xl adjusted */
+        }
+        h2 { font-size: 1.5rem; line-height: 2rem; } /* text-2xl */
+        @media (min-width: 768px) {
+            h2 { font-size: 1.875rem; line-height: 2.25rem; } /* md:text-3xl */
+        }
+        h3 { font-size: 1.25rem; line-height: 1.75rem; } /* text-xl */
+        @media (min-width: 768px) {
+            h3 { font-size: 1.5rem; line-height: 2rem; } /* md:text-2xl */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="font-bold mb-3">생성형 AI 활용 고등학생의 윤리적 인식 현황과 과제</h1>
+            <p class="text-lg text-gray-700">미림마이스터고 1학년 사례</p>
+            <p class="text-sm text-gray-600 mt-3">본 인포그래픽은 미림마이스터고 뉴미디어소프트웨어과 1학년 학생들의 생성형 AI 사용 현황 및 윤리적 인식에 대한 조사 보고서의 주요 내용을 요약한 것이다.</p>
+        </header>
+
+        <main>
+            <section id="introduction" class="card">
+                <h2 class="mb-4">I. 서론</h2>
+                <div class="space-y-4 text-gray-800">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-[#2A62B6]">1. 조사 동기</h3>
+                        <p>최근 생성형 인공지능(AI) 기술은 빠르게 발전하며 일상생활과 학습 환경에 광범위하게 통합되고 있다. 그러나 학생들이 생성형 AI를 활용하는 과정에서 발생할 수 있는 윤리적 문제와 잠재적 위험성에 대한 인식은 상대적으로 부족한 실정이다. 학생들이 AI 활용에 있어 올바른 사용법을 숙지하고 책임감을 갖추도록 지원하는 교육의 필요성이 대두된다. 이에 생성형 AI의 장단점과 사용 시 주의사항을 명확히 이해하고, 안전하며 효율적으로 AI를 활용할 수 있도록 지원하는 체계적인 교육 자료와 가이드라인의 필요성을 인식하여 본 조사를 시작했다.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-4 mb-2 text-[#2A62B6]">2. 조사 목적</h3>
+                        <p>본 보고서는 미림마이스터고 뉴미디어소프트웨어과 1학년 학생들을 대상으로 생성형 AI의 올바르고 안전하며 윤리적인 사용법을 제시하는 것을 주요 목적으로 한다. 구체적으로 학생들이 AI 사용 시 발생 가능한 위험성과 주의사항을 명확히 인지하도록 돕고, AI의 순기능과 역기능을 균형 있게 이해하여 책임감 있고 효율적으로 AI를 활용하는 능력을 함양하는 데 기여하고자 한다. 나아가 본 조사의 결과가 학생들의 AI 리터러시 증진 및 학업 능력 향상을 위한 기초 자료로 활용되기를 기대한다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research-plan" class="card">
+                <h2 class="mb-6">II. 조사 계획</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-[#2A62B6]">1. 조사 대상</h3>
+                        <ul class="list-disc list-inside text-gray-800 space-y-1 pl-2">
+                            <li>설문: 미림마이스터고 뉴미디어소프트웨어과 1학년 1반 학생 전원</li>
+                            <li>인터뷰: 미림마이스터고 뉴미디어소프트웨어과 1학년 1반 학생 중 2명 (사전 동의 확보)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-4 mb-2 text-[#2A62B6]">2. 조사 기간</h3>
+                        <p>2025년 5월 12일 – 2025년 5월 23일</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-4 mb-2 text-[#2A62B6]">3. 조사 방법</h3>
+                         <ul class="list-disc list-inside text-gray-800 space-y-1 pl-2">
+                            <li>설문조사: AI 리터러시 수준, 책임감 있는 사용 태도, 관련 교육 필요성 인식 등을 중심으로 구조화된 설문지를 활용했다.</li>
+                            <li>인터뷰: 생성형 AI 사용 경험, 인식 수준, 비판적 사고 능력, 윤리의식 및 제도적 기대 등을 다각적으로 파악하기 위해 반구조화된 심층 인터뷰를 진행했다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-4 mb-2 text-[#2A62B6]">4. 자료 수집 과정</h3>
+                        <p>자료 수집은 Google Form을 활용한 온라인 설문조사와 CLOVA Note 녹취 기반의 심층 인터뷰를 병행하여 진행했다. 설문은 온라인 링크를 통해 배포되었으며, 자율 응답 방식으로 수집했다. 5점 리커트 척도 문항을 활용하여 AI 사용 빈도, 효용성 인식, 문제점 인지 수준 등을 정량적으로 측정했다. 인터뷰는 사전에 준비된 질문지를 바탕으로 반구조화된 방식으로 진행했으며, 모든 인터뷰 내용은 응답자의 동의 하에 CLOVA Note를 사용하여 녹음 후 자동 전사하여 정성적 분석 자료로 활용했다.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-6 mb-3 text-[#2A62B6]">5. 조사 절차 (일반)</h3>
+                        <div class="space-y-4">
+                            <div class="flowchart-step p-3 rounded-md"><strong>1단계:</strong> 문헌 연구 및 조사 설계</div>
+                            <div class="flex justify-center my-1"><span class="flowchart-arrow text-2xl">↓</span></div>
+                            <div class="flowchart-step p-3 rounded-md"><strong>2단계:</strong> 설문지/인터뷰 문항 개발 및 배포/실시</div>
+                            <div class="flex justify-center my-1"><span class="flowchart-arrow text-2xl">↓</span></div>
+                            <div class="flowchart-step p-3 rounded-md"><strong>3단계:</strong> 데이터 수집 및 취합</div>
+                            <div class="flex justify-center my-1"><span class="flowchart-arrow text-2xl">↓</span></div>
+                            <div class="flowchart-step p-3 rounded-md"><strong>4단계:</strong> 데이터 통계 분석 및 질적 분석</div>
+                            <div class="flex justify-center my-1"><span class="flowchart-arrow text-2xl">↓</span></div>
+                            <div class="flowchart-step p-3 rounded-md"><strong>5단계:</strong> 결론 도출 및 보고서 작성</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research-results" class="card">
+                <h2 class="mb-6">III. 조사 결과</h2>
+                <p class="mb-6 text-gray-700">본 설문에는 미림마이스터고 뉴미디어소프트웨어과 1학년 학생 총 19명이 참여했다.</p>
+                
+                <h3 class="text-xl font-semibold mb-4 text-[#2A62B6]">가. 설문 조사 결과</h3>
+                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+                    <div class="lg:col-span-1">
+                        <h4 class="text-lg font-semibold mb-2 text-center text-[#263238]">Q1. 생성형 AI 사용 빈도</h4>
+                        <p class="text-sm text-center text-gray-600 mb-3">평소 공부나 과제 시 생성형 AI 사용 빈도를 나타낸다.</p>
+                        <div class="chart-container w-full max-w-sm mx-auto h-72 md:h-80">
+                            <canvas id="aiUsageFrequencyChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-1">
+                        <h4 class="text-lg font-semibold mb-2 text-center text-[#263238]">Q2. 생성형 AI 도움 여부</h4>
+                        <p class="text-sm text-center text-gray-600 mb-3">생성형 AI가 공부나 과제 수행에 도움이 되는지에 대한 인식을 보여준다.</p>
+                        <div class="chart-container w-full max-w-sm mx-auto h-72 md:h-80">
+                            <canvas id="aiHelpfulnessChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-1">
+                        <h4 class="text-lg font-semibold mb-2 text-center text-[#263238]">Q3. 생성형 AI 문제점 인지 수준</h4>
+                        <p class="text-sm text-center text-gray-600 mb-3">생성형 AI 사용 시 발생 가능한 문제점에 대한 인지 수준을 나타낸다.</p>
+                        <div class="chart-container w-full max-w-sm mx-auto h-72 md:h-80">
+                            <canvas id="aiProblemAwarenessChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm text-gray-700 p-4 bg-blue-50 rounded-md border border-blue-200">
+                    <p><strong class="text-[#2A62B6]">Q1 분석:</strong> 모든 응답자가 생성형 AI를 사용한 경험이 있으며, '자주 사용함'(36.8%)과 '매우 자주 사용함'(31.6%)을 합한 비율이 68.4%에 달해, 과반수의 학생이 생성형 AI를 학습에 적극적으로 활용하고 있음을 확인했다.</p>
+                    <p><strong class="text-[#2A62B6]">Q2 분석:</strong> '그렇다'(42.1%)와 '매우 그렇다'(36.8%)고 응답한 학생의 비율이 총 78.9%로, 대다수의 학생이 생성형 AI가 학습 및 과제 수행에 긍정적인 영향을 미친다고 인식하고 있었다.</p>
+                    <p><strong class="text-[#2A62B6]">Q3 분석:</strong> '인지하고 있음'(57.6%)과 '매우 잘 인지하고 있음'(26.3%)을 합한 응답률이 83.9%로 나타나, 대다수 학생이 생성형 AI 사용에 따른 잠재적 문제점에 대해 인지하고 있다고 응답했다. 이는 표면적인 문제점 인지 수준은 높은 편임을 시사한다.</p>
+                </div>
+
+                <h3 class="text-xl font-semibold mt-8 mb-4 text-[#2A62B6]">나. 인터뷰 결과</h3>
+                <div class="space-y-6">
+                    <article class="p-4 border rounded-lg shadow-sm bg-gray-50">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">인터뷰 대상자 A (이주호 학생)</h4>
+                        <p class="text-gray-700 mb-2">A 학생은 생성형 AI에 대한 맹목적인 의존을 경계하며, 학습자 스스로 사고하는 과정의 중요성을 강조했다. 또한, 생성형 AI의 올바른 사용을 위한 체계적인 교육의 필요성을 인지하고 있었으며, 정보의 신뢰성 확보와 윤리적 책임의 중요성을 명확히 언급했다.</p>
+                        <blockquote class="text-gray-600">"AI한테 전부 다 의존하지 않고 자기도 생각하면서 발전을 하며 같이 쓸 수 있도록 하기 위해 (교육이 필요하다)."</blockquote>
+                        <p class="text-sm text-gray-600 mt-2">위 발언은 생성형 AI를 보조 도구로 인식하고, 자기 주도 학습과 균형을 이루려는 태도를 보여준다.</p>
+                    </article>
+                    <article class="p-4 border rounded-lg shadow-sm bg-gray-50">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">인터뷰 대상자 B (노영재 학생)</h4>
+                        <p class="text-gray-700 mb-2">B 학생은 생성형 AI를 주로 정보 탐색 목적으로 활용하며, 신속하고 용이한 정보 획득 측면에서 AI의 효율성을 긍정적으로 평가했다. 그러나 AI가 부정확하거나 거짓된 답변을 생성한 경험이 있으며, 이러한 정보의 신뢰성 문제에 대해 불편함을 느끼고 반복 질문을 통해 정확도를 보완하려 노력한다고 밝혔다. B 학생은 단순 지식 암기가 아닌, 주제에 대한 깊이 있는 이해를 위해 AI를 활용하려는 태도를 보였으며, AI가 제공한 설명을 능동적으로 해석하려는 자세가 드러났다.</p>
+                        <blockquote class="text-gray-600">"AI의 정보를 단순히 외우는 게 아니라 그 분야를 이해하기 위해서 사용한다는 말씀이시네요."</blockquote>
+                        <p class="text-sm text-gray-600 mt-2">이처럼 B 학생은 AI의 답변을 비판적으로 수용하며 학습에 적용하려는 자세를 나타냈다.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="conclusion" class="card">
+                <h2 class="mb-6">IV. 결론</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-[#2A62B6]">1. 조사 결과 요약</h3>
+                        <p class="text-gray-800">본 조사를 통해 미림마이스터고 뉴미디어소프트웨어과 1학년 학생들은 생성형 AI를 학습 및 과제 수행에 매우 활발하게 사용하고 있으며, 그 유용성에 대해서도 높게 평가하고 있음을 확인했다. 설문조사 결과, 대다수 학생(83.9%)이 생성형 AI 사용 시 발생할 수 있는 잘못된 정보, 표절, 개인정보 유출 등의 문제점을 인지하고 있다고 응답했다. 그러나 심층 인터뷰 결과, 이러한 표면적 인지 수준에도 불구하고 실제 활용 과정에서는 AI가 제공하는 정보의 편리성에 더 집중하는 경향이 나타났으며, 정보의 비판적 수용, 윤리적 책임감, 제도적 장치에 대한 심도 있는 고민이나 관심은 상대적으로 부족한 것으로 파악되었다. 이는 AI 리터러시 및 윤리 교육의 필요성을 강하게 시사한다.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mt-4 mb-2 text-[#2A62B6]">2. 주요 발견점</h3>
+                        <ul class="list-decimal list-inside text-gray-800 space-y-2 pl-2">
+                            <li>학생들의 생성형 AI 활용은 보편화되었으며, 학습 지원 도구로서의 높은 잠재력을 인정받고 있다.</li>
+                            <li>생성형 AI의 잠재적 위험성에 대한 학생들의 인지 수준은 비교적 높게 나타나지만, 이러한 인지가 실제 사용에서의 비판적 사고나 윤리적 책임 의식으로 깊이 연결되지 못하는 간극이 존재한다.</li>
+                            <li>일부 학생들은 AI 정보의 신뢰성 문제를 자각하고 자체적인 검증 노력을 기울이는 등 주체적인 활용 태도를 보이기도 하나, 전반적으로 체계적인 AI 윤리 교육 및 활용 가이드라인의 필요성이 절실하다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="recommendations" class="card">
+                <h2 class="mb-6">V. 제언</h2>
+                <p class="text-gray-800 mb-4">본 조사 결과를 바탕으로 다음과 같은 사항을 제언한다.</p>
+                <ul class="list-none space-y-4">
+                    <li class="flex items-start p-4 rounded-md bg-blue-50 border border-blue-200">
+                        <span class="text-2xl mr-4 text-[#2A62B6]">1️⃣</span>
+                        <div>
+                            <strong class="block text-gray-800">학교는 정규 교육과정 내에 생성형 AI의 효과적이고 윤리적인 활용을 위한 실질적인 교육 프로그램을 편성하고 운영해야 한다.</strong>
+                            <p class="text-gray-700 mt-1">이는 정보 판별 능력, 저작권 인식, 프롬프트 엔지니어링 기초, 윤리적 딜레마 토론 등을 포함하는 통합적 리터러시 교육이어야 한다.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start p-4 rounded-md bg-teal-50 border border-teal-200">
+                        <span class="text-2xl mr-4 text-[#4ECDC4]">2️⃣</span>
+                        <div>
+                            <strong class="block text-gray-800">학생 스스로 AI 사용 경험을 공유하고 상호 학습할 수 있는 커뮤니티 활동을 장려하며, 학생 주도의 AI 활용 윤리 수칙 제정 및 실천 캠페인 등을 지원해야 한다.</strong>
+                        </div>
+                    </li>
+                    <li class="flex items-start p-4 rounded-md bg-gray-100 border border-gray-300">
+                        <span class="text-2xl mr-4 text-[#A9A9A9]">3️⃣</span>
+                         <div>
+                            <strong class="block text-gray-800">교사들이 먼저 생성형 AI의 교육적 활용 방안과 지도상의 유의점을 충분히 숙지할 수 있도록 관련 연수 기회를 확대하고, 실제 수업에 적용 가능한 다양한 교수학습 자료를 개발하여 보급해야 한다.</strong>
+                        </div>
+                    </li>
+                </ul>
+                <p class="text-gray-800 mt-6">이러한 노력을 통해 학생들이 생성형 AI를 단순한 정보 검색 도구가 아닌, 창의적 문제 해결과 자기 주도적 학습을 위한 강력한 조력자로 활용할 수 있도록 지원해야 할 것이다.</p>
+            </section>
+
+            <section id="references" class="card">
+                <h2 class="mb-4">VI. 참고 자료</h2>
+                <div class="space-y-3">
+                    <div>
+                        <h4 class="font-semibold text-gray-700">학술 자료:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-1 pl-2 space-y-1">
+                            <li>김미경 외. (2023). 초등학생의 생성형 인공지능 활용 실태 및 교육 요구 분석. 한국정보교육학회논문지, 27(4), 481-492. (AI 윤리 교육의 중요성 및 내용 구성 참고)</li>
+                            <li>박영신. (2024). 생성형 AI 시대, 교육의 변화와 과제. 한국교육학회, 62(1), 1-20. (AI 리터러시 및 비판적 사고력 함양의 필요성 참고)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-700">설문조사:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-1 pl-2 space-y-1">
+                            <li>미림마이스터고 1학년 뉴미디어 소프트웨어과 생성형 AI 활용 실태 설문조사. (2025). [Google Forms]. <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdPcSmzr50ep9_wRQ8LHbJbPegXuJ8WZjFjnuosknlVfrJKOQ/viewform?usp=header" target="_blank" class="reference-link">설문조사 링크</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-700">인터뷰 자료:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-1 pl-2 space-y-1">
+                            <li>이주호 학생 심층 인터뷰 녹취록. (2025). [CLOVA Note]. <a href="https://clovanote.naver.com/s/7MUxFYZ8gvDktoq8QBpwGHS" target="_blank" class="reference-link">인터뷰 녹음본 링크</a></li>
+                            <li>노영재 학생 심층 인터뷰 녹취록. (2025). [CLOVA Note]. <a href="https://clovanote.naver.com/s/GbqpQsSQg9Ts53tTGPEk3DS" target="_blank" class="reference-link">인터뷰 녹음본 링크</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-700">뉴스 기사/보고서:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-1 pl-2 space-y-1">
+                            <li>"AI 윤리, 교실에서 답을 찾다: 해외 사례 분석". (2023. 10. 15.). 교육부 보도자료. (AI 윤리 교육 해외 사례 및 정책 동향 참고)</li>
+                            <li>최근 생성형 AI 관련 언론 보도 (예: 'AI 오용 사례 증가… 교육 현장 비상', 2024. 3. 20., 한국일보). (AI 사용의 문제점 및 사회적 인식 참고)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-12 py-6 border-t border-gray-300">
+            <p class="text-sm text-gray-600">&copy; 2025 미림마이스터고 뉴미디어소프트웨어과 1학년 (본 보고서 기반). All rights reserved.</p>
+            <p class="text-xs text-gray-500 mt-1">이 인포그래픽은 제공된 학생 연구 보고서 내용을 기반으로 AI에 의해 재구성되었습니다.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Helper function to wrap text for Chart.js labels
+        function formatLabel(label, maxWidth = 16) {
+            if (typeof label !== 'string' && !Array.isArray(label)) { // Allow arrays from manual splitting
+                return label;
+            }
+            if (Array.isArray(label)) { // If already an array (for multi-line labels)
+                return label;
+            }
+
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxWidth && currentLine.length > 0) {
+                    lines.push(currentLine.trim());
+                    currentLine = word + ' ';
+                } else {
+                    currentLine += word + ' ';
+                }
+            }
+            if (currentLine.trim().length > 0) {
+                lines.push(currentLine.trim());
+            }
+            return lines.length > 0 ? lines : [label]; // Return as array for multi-line
+        }
+
+        // Common Chart.js tooltip configuration
+        const commonTooltipCallbacks = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    if (tooltipItems.length > 0) {
+                        const item = tooltipItems[0];
+                        const originalLabel = item.chart.data.labelsOriginal ? item.chart.data.labelsOriginal[item.dataIndex] : item.label;
+                        // If originalLabel is an array (manual multi-line), join it for title
+                        return Array.isArray(originalLabel) ? originalLabel.join(' ') : formatLabel(originalLabel, 30).join(' ');
+                    }
+                    return '';
+                },
+                label: function(context) {
+                    let label = context.dataset.label || '';
+                    if (label) {
+                        label += ': ';
+                    }
+                    let value = context.parsed.y;
+                    if (value !== null && !isNaN(value)) {
+                         // For these charts, data is in percentage
+                        label += value.toFixed(1) + '%';
+                        
+                        // Optionally add raw count if available
+                        if (context.chart.data.rawCounts && context.chart.data.rawCounts[context.datasetIndex] && context.chart.data.rawCounts[context.datasetIndex][context.dataIndex] !== undefined) {
+                             label += ` (${context.chart.data.rawCounts[context.datasetIndex][context.dataIndex]}명)`;
+                        }
+                    }
+                    return label;
+                }
+            }
+        };
+        
+        // Common Chart.js options
+        const commonChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y', // For horizontal bar charts, makes labels more readable
+            plugins: {
+                legend: {
+                   display: false // Generally not needed for single-dataset bar charts with clear titles
+                },
+                tooltip: commonTooltipCallbacks
+            },
+            scales: {
+                x: { // Now represents the value axis (percentage)
+                    ticks: {
+                        color: '#263238',
+                        font: { size: 11, family: 'Pretendard' },
+                        callback: function(value) { return value + '%'; },
+                        beginAtZero: true,
+                        max: 100 // Assuming data is percentage
+                    },
+                    grid: { color: '#E0F2FE' },
+                    title: {
+                        display: true,
+                        text: '응답 비율 (%)',
+                        font: {size: 12, family: 'Pretendard'},
+                        color: '#263238'
+                    }
+                },
+                y: { // Now represents the category axis
+                    ticks: {
+                        color: '#263238',
+                        font: { size: 11, family: 'Pretendard' },
+                        callback: function(value) { // value is index here
+                            const label = this.chart.data.labelsOriginal[value];
+                            return formatLabel(label, 15); // Adjust maxWidth for y-axis ticks
+                        }
+                    },
+                    grid: { display: false }
+                }
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Q1. 생성형 AI 사용 빈도 (수평 막대 차트)
+            const aiUsageData = {
+                labelsOriginal: ['거의 사용 안 함', '가끔 사용함', '사용함', '자주 사용함', '매우 자주 사용함'],
+                labels: ['거의 사용 안 함', '가끔 사용함', '사용함', '자주 사용함', '매우 자주 사용함'].map(l => formatLabel(l,15)), // For internal use if needed, y-axis uses labelsOriginal
+                datasets: [{
+                    label: '응답 비율 (%)',
+                    data: [0, 21.1, 10.5, 36.8, 31.6], // Percentages
+                    backgroundColor: ['#A9A9A9', '#E0F2FE', '#4ECDC4', '#2A62B6', '#1E4E8C'], // Shades of blue/teal/grey
+                    borderColor: '#FFFFFF',
+                    borderWidth: 1,
+                    borderRadius: 3,
+                }],
+                rawCounts: [[0, 4, 2, 7, 6]] // Raw counts for tooltip
+            };
+            const aiUsageCtx = document.getElementById('aiUsageFrequencyChart');
+            if (aiUsageCtx) {
+                new Chart(aiUsageCtx, {
+                    type: 'bar', // Horizontal bar chart
+                    data: aiUsageData,
+                    options: { ...commonChartOptions, id: 'aiUsageFrequencyChart' }
+                });
+            }
+
+            // Q2. 생성형 AI 도움 여부 (수평 막대 차트)
+            const aiHelpfulnessData = {
+                labelsOriginal: ['전혀 그렇지 않다', '그렇지 않다', '보통이다', '그렇다', '매우 그렇다'],
+                labels: ['전혀 그렇지 않다', '그렇지 않다', '보통이다', '그렇다', '매우 그렇다'].map(l => formatLabel(l,15)),
+                datasets: [{
+                    label: '응답 비율 (%)',
+                    data: [0, 10.5, 10.5, 42.1, 36.8], // Percentages
+                    backgroundColor: ['#A9A9A9', '#E0F2FE', '#4ECDC4', '#2A62B6', '#1E4E8C'],
+                    borderColor: '#FFFFFF',
+                    borderWidth: 1,
+                    borderRadius: 3,
+                }],
+                rawCounts: [[0, 2, 2, 8, 7]]
+            };
+            const aiHelpfulnessCtx = document.getElementById('aiHelpfulnessChart');
+            if (aiHelpfulnessCtx) {
+                new Chart(aiHelpfulnessCtx, {
+                    type: 'bar',
+                    data: aiHelpfulnessData,
+                    options: { ...commonChartOptions, id: 'aiHelpfulnessChart' }
+                });
+            }
+
+            // Q3. 생성형 AI 문제점 인지 수준 (수평 막대 차트)
+            const aiProblemAwarenessData = {
+                labelsOriginal: ['전혀 인지하지 못함', '잘 인지하지 못함', '인지하는 것 같음', '인지하고 있음', '매우 잘 인지하고 있음'],
+                labels: ['전혀 인지하지 못함', '잘 인지하지 못함', '인지하는 것 같음', '인지하고 있음', '매우 잘 인지하고 있음'].map(l => formatLabel(l,15)),
+                datasets: [{
+                    label: '응답 비율 (%)',
+                    data: [0, 5.3, 10.5, 57.6, 26.3], // Percentages
+                    backgroundColor: ['#A9A9A9', '#E0F2FE', '#4ECDC4', '#2A62B6', '#1E4E8C'],
+                    borderColor: '#FFFFFF',
+                    borderWidth: 1,
+                    borderRadius: 3,
+                }],
+                rawCounts: [[0, 1, 2, 11, 5]]
+            };
+            const aiProblemAwarenessCtx = document.getElementById('aiProblemAwarenessChart');
+            if (aiProblemAwarenessCtx) {
+                new Chart(aiProblemAwarenessCtx, {
+                    type: 'bar',
+                    data: aiProblemAwarenessData,
+                    options: { ...commonChartOptions, id: 'aiProblemAwarenessChart' }
+                });
+            }
+        });
+    </script>
+    </body>
+</html>
